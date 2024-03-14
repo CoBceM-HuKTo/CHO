@@ -1,0 +1,237 @@
+html {
+    /* background: rgb(31, 27, 27); */
+    /* opacity: 0.6; */
+}
+
+.head-menu .logo {
+    background-image: url(img/logo.png);
+    background-size: 100%;
+    width: 7vw;
+    height: 5.81vw;
+    position: absolute;
+    top: 2vw;
+    left: 10vw;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.head-menu .logo:hover {
+    background-image: url(img/logo2.png);
+}
+
+.head-menu .buttons a{
+    font-family: monospace;
+    position: relative;
+    left: 60vw;
+    margin-left: 1vw;
+    top: 5vw;
+    font-size: 1vw;
+    color: white;
+    text-decoration-line: none;
+    transition: 0.7s;
+}
+
+.head-menu .buttons a:hover {
+    color: rgb(0, 69, 126);
+}
+
+.slider .video {
+    width: 99vw;
+    object-fit: cover;
+    position: absolute;
+    object-position: center;
+    max-height: 40vw;
+    top: 0;
+    left: 0;
+}
+
+.on-slider {
+    background: black;
+    width: 99vw;
+    height: 40vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    box-shadow: 0 0 4vw black;
+}
+
+.we {
+    position: absolute;
+    top: 43vw;
+    left: 10vw;
+    font-family: monospace;
+    width: 70vw;
+    text-align: justify;
+    height: 16vw;
+}
+
+.we .title1 {
+    font-size: 2.5vw;
+    color: black;
+}
+
+.we .text1 {
+    font-size: 1.3vw;
+    color: black;
+    position: absolute;
+    top: 5vw;
+    left: 3vw;
+}
+
+.we2 {
+    position: absolute;
+    top: 15vw;
+    left: 10vw;
+    font-family: monospace;
+    width: 70vw;
+    text-align: justify;
+    height: 16vw;
+}
+
+.we2 .title2 {
+    font-size: 2vw;
+    color: black;
+    color:rgb(0, 92, 167)
+}
+
+.we2 .text2 {
+    font-size: 1.3vw;
+    color: black;
+    position: absolute;
+    top: 5vw;
+    left: 3vw;
+}
+
+.head-menu2 .buttons a{
+    font-family: monospace;
+    position: relative;
+    left: 60vw;
+    margin-left: 1vw;
+    top: 5vw;
+    font-size: 1vw;
+    color: rgb(0, 0, 0);
+    text-decoration-line: none;
+    transition: 0.5s;
+}
+
+.head-menu2 .buttons a:hover {
+    color: rgb(132, 179, 218);
+}
+
+.head-menu2 .logo {
+    background-image: url(img/logo3.png);
+    background-size: 100%;
+    width: 7vw;
+    height: 5.81vw;
+    position: absolute;
+    top: 2vw;
+    left: 10vw;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.head-menu2 .logo:hover {
+    background-image: url(img/logo2.png);
+}
+
+i {
+    color:rgb(0, 92, 167)
+}
+
+.ourteam {
+    position: absolute;
+    top: 15vw;
+    left: 10vw;
+    font-family: monospace;
+    width: 70vw;
+    text-align: justify;
+    height: 16vw;
+}
+
+.ourteam .title {
+    font-size: 2vw;
+    color: black;
+    /* color:rgb(0, 92, 167) */
+}
+
+.ourteam ul {
+    font-size: 1.3vw;
+    color: black;
+    position: absolute;
+    top: 5vw;
+    line-height: 2vw;
+    left: 3vw;
+}
+
+.need {
+    position: absolute;
+    top: 14vw;
+    width: 28vw;
+    left: 10vw;
+    /* background: rgba(175, 175, 175, 0.479); */
+    height: 16vw;
+    border-left : 0.3vw solid rgb(0, 0, 0);
+}
+
+.need a{
+    font-family: monospace;
+    display: flex;
+    margin-top: -2vw;
+    flex-direction: column;
+    position: relative;
+    left: 7vw;
+    font-size: 1.6vw;
+    top: 1vw;
+    color: rgb(3, 7, 68);
+    /* text-decoration-line: none; */
+    transition: 0.7s;
+}
+
+.need a:hover {
+    color: rgb(16, 81, 165);
+}
+
+.need img {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 1vw;
+    margin-top: 2vw;
+    left: 3vw;
+    width: 2vw;
+}
+
+.vk {
+    position: fixed;
+    left: 94vw;
+    bottom: 2vw;
+    width: 3vw;
+    height: 3vw;
+    background-size: 100%;
+    background-image: url(img/vk.png);
+    transition: 1s;
+}
+
+.vk:hover {
+    background-image: url(img/vk3.png);
+}
+
+.nen {
+    text-align: center;
+    font-size: 3vw;
+    position: absolute;
+    top: 24vw;
+    left: 25vw;
+    font-family: monospace;
+    
+}
+
+.nen a {
+    color: rgb(15, 31, 121);
+    transition: 0.7s;
+}
+
+.nen a:hover {
+    color: rgb(115, 133, 238);
+}
