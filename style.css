@@ -1,10 +1,9 @@
 html {
-    /* background: rgb(31, 27, 27); */
-    /* opacity: 0.6; */
+    scroll-behavior: smooth;
 }
 
 .head-menu .logo {
-    background-image: url(img/logo.png);
+    background-image: url(logo.png);
     background-size: 100%;
     width: 7vw;
     height: 5.81vw;
@@ -16,7 +15,7 @@ html {
 }
 
 .head-menu .logo:hover {
-    background-image: url(img/logo2.png);
+    background-image: url(logo2.png);
 }
 
 .head-menu .buttons a{
@@ -67,8 +66,9 @@ html {
 }
 
 .we .title1 {
-    font-size: 2.5vw;
+    font-size: 2vw;
     color: black;
+    color:rgb(0, 92, 167)
 }
 
 .we .text1 {
@@ -81,7 +81,7 @@ html {
 
 .we2 {
     position: absolute;
-    top: 15vw;
+    top: 59vw;
     left: 10vw;
     font-family: monospace;
     width: 70vw;
@@ -120,7 +120,7 @@ html {
 }
 
 .head-menu2 .logo {
-    background-image: url(img/logo3.png);
+    background-image: url(logo3.png);
     background-size: 100%;
     width: 7vw;
     height: 5.81vw;
@@ -132,7 +132,7 @@ html {
 }
 
 .head-menu2 .logo:hover {
-    background-image: url(img/logo2.png);
+    background-image: url(logo2.png);
 }
 
 i {
@@ -141,18 +141,17 @@ i {
 
 .ourteam {
     position: absolute;
-    top: 15vw;
+    top: 82vw;
     left: 10vw;
     font-family: monospace;
     width: 70vw;
     text-align: justify;
-    height: 16vw;
+    height: 30vw;
 }
 
 .ourteam .title {
     font-size: 2vw;
-    color: black;
-    /* color:rgb(0, 92, 167) */
+    color:rgb(0, 92, 167)
 }
 
 .ourteam ul {
@@ -166,12 +165,10 @@ i {
 
 .need {
     position: absolute;
-    top: 14vw;
-    width: 28vw;
+    top: 108vw;
+    width: 80vw;
     left: 10vw;
-    /* background: rgba(175, 175, 175, 0.479); */
-    height: 16vw;
-    border-left : 0.3vw solid rgb(0, 0, 0);
+    height: 20vw;
 }
 
 .need a{
@@ -184,8 +181,13 @@ i {
     font-size: 1.6vw;
     top: 1vw;
     color: rgb(3, 7, 68);
-    /* text-decoration-line: none; */
     transition: 0.7s;
+}
+
+.need .title3 {
+    font-size: 2vw;
+    font-family: monospace;
+    color:rgb(0, 92, 167)
 }
 
 .need a:hover {
@@ -209,12 +211,12 @@ i {
     width: 3vw;
     height: 3vw;
     background-size: 100%;
-    background-image: url(img/vk.png);
+    background-image: url(vk.png);
     transition: 1s;
 }
 
 .vk:hover {
-    background-image: url(img/vk3.png);
+    background-image: url(vk3.png);
 }
 
 .nen {
